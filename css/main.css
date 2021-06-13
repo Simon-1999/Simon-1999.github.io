@@ -1,0 +1,77 @@
+:root{
+    --color1: #f6f2e8;
+    --color2: #5c2624;
+    --color3: #9D2235;
+    --color4: rgb(0, 1, 12);
+    --color5: white;
+}
+
+body{
+    font-family: 'Bebas Neue', cursive;
+    color: var(--color2);
+    background-color: var(--color1);
+}
+
+.navbar{
+    background-color: var(--color4);
+}
+
+.navbar-brand{
+    color: var(--color5);
+    font-size: 35px;
+}
+
+.navbar-brand:hover{
+    color: var(--color1);
+}
+
+.nav-item{
+    color: var(--color5);
+}
+
+.nav-item:hover{
+    color: var(--color1);
+}
+
+.nav-item-contact{
+    color: var(--color5);
+    background-color: var(--color3);
+}
+
+.header{
+    background-image: url("https://www.thatericalper.com/wp-content/uploads/2017/04/John-Mayer-Air-Canada-Centre-DSC_9955.jpg");
+    min-height: 600px;
+}
+
+p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.c-2{
+    color: var(--color2);
+}
+
+.c-1{
+    color: var(--color1);
+}
+
+.bg-4{
+    background-color: var(--color4);
+}
+
+.bg-3{
+    background-color: var(--color3);
+}
+
+.border{
+    border: 1px solid var(--color1);
+}
+
+.figure-img{
+    height: 147px;
+}
+
+.button{
+    display: inline-block;
+    font-size: 20px;
+}
