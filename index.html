@@ -16,33 +16,36 @@
         <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script> -->
     </head>  
     <body>
-        <nav class="navbar navbar-expand-lg px-2 py-3 sticky-top">
+        <nav class="navbar navbar-expand-lg navbar-dark px-2 py-3 sticky-top w-100">
             <a class="navbar-brand" href="#">John Mayer Tribute Band</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-item nav-link mx-3 active" href="#OverOns">Over ons</a>
-                    <a class="nav-item nav-link mx-3" href="#Setlist">Setlist</a>
-                    <a class="nav-item nav-link mx-3 nav-item-contact" href="#Contact">Contact</a>
+                    <a class="nav-item nav-link mx-3 active" href="#Setlist">Setlist</a>
+                    <a class="nav-item nav-link mx-3 active nav-item-contact" href="#Contact">Contact</a>
                 </div>
             </div>
         </nav>
 
-        <div class="header">
+        <div class="headering">
+            <img class="headering-img" src="images/bg_test.jpg">
         </div>
 
-        <div class="py-5 text-center" id="OverOns">
+        <div class="anchor" id="OverOns"></div>
+        <div class="py-5 text-center">
             <h1>Over ons</h1>
             <p>Voor liefhebbers van échte muziek: Wij zijn de John Mayer Tribute Band.</p>
             <a href="mailto:someone@yoursite.com?subject=Boeking JMTribute&body=Beste JMTribute,">
-                <div class="button px-5 py-1 bg-3 c-1 mt-1">Boek ons</div>
+                <div class="button px-5 py-1 bg-3 c-1 mt-1">Ons boeken?</div>
             </a>
         </div>
 
-        <div class="row py-5 bg-4" id="Setlist">
-            <div class="col px-2">
+        <div class="anchor" id="Setlist"></div>
+        <div class="row py-5 bg-4 m-0">
+            <div class="col-md px-2">
                 <div class="py-1 text-center">
                     <figure class="figure">
                         <img src="images/albumcovers/RoomForSquares.jpg" class="figure-img img-fluid rounded" alt="...">
@@ -64,7 +67,7 @@
                     </figure>
                 </div>
             </div>
-            <div class="col px-5">
+            <div class="col-md px-5 pb-3">
                 <div class="border p-1">
                     <div class="border p-3 text-center">
                         <h1 class="c-1">Setlist</h1>
@@ -83,12 +86,12 @@
                             Helpless <br>
                             I Don't Trust Myself <br>
                             In The Blood<br>
-                            Last Train Running<br>
+                            Last Train Home<br>
                             Love On The Weekend<br>
                             Movin' On And Gettin' Over <br>
                             New Light<br>
                             Perfectly Lonely<br>   
-                            Queen Of Califoria <br>
+                            Queen Of California <br>
                             Vultures<br>  
                             Who Says <br> 
                             Why Georgia <br> 
@@ -97,7 +100,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col px-2">
+            <div class="col-md px-2">
                 <div class="py-1 text-center">
                     <figure class="figure">
                         <img src="images/albumcovers/BornAndRaised.jpg" class="figure-img img-fluid rounded" alt="...">
@@ -121,9 +124,26 @@
             </div>
         </div>
 
-
-        <div class="py-5 text-center" id="Contact">
-            <h1>Contact</h1>
+        <div class="anchor" id="Contact"></div>
+        <div class="pt-5 text-center">
+            <h1>Contact</h1>            
+        </div>
+        <div class="row py-5 m-0">
+            <div class="col-md text-center m-0 my-auto">
+                <p>
+                    Wilt u ons boeken of heeft u vragen? <br>
+                    Schroom niet om contact met ons op te nemen.
+                </p>
+            </div>
+            <div class="col-md text-center m-0 ">
+                Email
+                <p>jmtribute@hotmail.com</p>
+                Telefoon
+                <p>06 51270853</p>
+                <a href="mailto:someone@yoursite.com?subject=Boeking JMTribute&body=Beste JMTribute,">
+                    <div class="button px-5 py-1 bg-3 c-1 mt-1">Boek ons</div>
+                </a>
+            </div>
         </div>
     </body>
 </html>
